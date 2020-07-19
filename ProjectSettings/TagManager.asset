@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Obstacles
+  - ColliderBombCamEffect
+  - Ground
+  - Dog
+  - Platform
+  - GameManager
+  - InputManager
+  - CameraRig
+  - Pivot
+  - Collectables
+  - Smoke
+  - BombCol
+  - SilhouetteBoy
+  - MachineShooting
+  - Rewards
+  - Rock
+  - DogHappyTrigger
+  - Button
+  - Militia
+  - TightZone
+  - BackGround
+  - Family
+  - PlatformSaveBoy
+  - BoyCrying
+  - NarrationZone
+  - SmallRocks
+  - Mask
+  - Bomb
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Bullet
+  - Obstacle
+  - Player
+  - Smoke
+  - Weapons
+  - Dog
+  - Narration
+  - SmallRocks
+  - YoungBoy
+  - NonCollidedObstacles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fire
+    uniqueID: 4006137893
+    locked: 0
+  - name: Smoke
+    uniqueID: 2843130069
+    locked: 0
+  - name: Buildings
+    uniqueID: 2425931307
+    locked: 0
+  - name: Platforms&Ground
+    uniqueID: 2414427969
+    locked: 0
+  - name: Player
+    uniqueID: 2348000863
+    locked: 0
+  - name: Objects
+    uniqueID: 2797646891
+    locked: 0
+  - name: UI
+    uniqueID: 2936859323
+    locked: 0

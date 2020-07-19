@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1161549403534698}
+  m_IsPrefabParent: 1
+--- !u!1 &1161549403534698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4717923380899566}
+  m_Layer: 0
+  m_Name: GeneratePeople
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1190007070291492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4990224955181470}
+  - component: {fileID: 68394096316707714}
+  - component: {fileID: 114700019979363264}
+  m_Layer: 0
+  m_Name: GeneratePeopleOnBuildings (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1442428889725346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4826771386310314}
+  - component: {fileID: 68589697554874940}
+  - component: {fileID: 114899621764457216}
+  m_Layer: 0
+  m_Name: GeneratePeopleOnSecondGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1725128828376018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4951575266553102}
+  - component: {fileID: 68827917091342038}
+  - component: {fileID: 114904025051043768}
+  m_Layer: 0
+  m_Name: GeneratePeopleOnBuildings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1890070580979210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4659815812617004}
+  - component: {fileID: 68373643304692326}
+  - component: {fileID: 114967118483157750}
+  m_Layer: 0
+  m_Name: GeneratePeopleOnGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4659815812617004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1890070580979210}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 187.5, y: -25.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4717923380899566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4717923380899566
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1161549403534698}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4659815812617004}
+  - {fileID: 4951575266553102}
+  - {fileID: 4990224955181470}
+  - {fileID: 4826771386310314}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4826771386310314
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442428889725346}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 522.9, y: -2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4717923380899566}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4951575266553102
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725128828376018}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 187.5, y: -11.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4717923380899566}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4990224955181470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190007070291492}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.1, y: -14.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4717923380899566}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &68373643304692326
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1890070580979210}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.6193471, y: -39.17687}
+  - {x: 0.67986965, y: 75.380936}
+--- !u!68 &68394096316707714
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190007070291492}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.6193471, y: -39.17687}
+  - {x: 0.67986965, y: 75.380936}
+--- !u!68 &68589697554874940
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442428889725346}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.6193471, y: -39.17687}
+  - {x: 0.67986965, y: 75.380936}
+--- !u!68 &68827917091342038
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725128828376018}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.6193471, y: -39.17687}
+  - {x: 0.67986965, y: 75.380936}
+--- !u!114 &114700019979363264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190007070291492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ff26f78e8704c4297256d4a32e47f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peoplePrefabs:
+  - {fileID: 1459347541409370, guid: 10234ae65c97f41ca99e040c7bfa88a7, type: 2}
+  - {fileID: 1743928338268700, guid: 48bdd90353c0c43538f31ac35942d105, type: 2}
+  - {fileID: 1107845271853550, guid: aa2141a5951354949aa76b25ba1a3cf8, type: 2}
+  - {fileID: 1281677756442302, guid: 832fb5d42669e4b27b96a6ee484e0f72, type: 2}
+  delayTime: {x: 4, y: 8}
+  peopleSpeed: 10
+  sortingOrder: -1
+  layerName: Buildings
+--- !u!114 &114899621764457216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442428889725346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ff26f78e8704c4297256d4a32e47f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peoplePrefabs:
+  - {fileID: 1459347541409370, guid: 10234ae65c97f41ca99e040c7bfa88a7, type: 2}
+  - {fileID: 1743928338268700, guid: 48bdd90353c0c43538f31ac35942d105, type: 2}
+  - {fileID: 1107845271853550, guid: aa2141a5951354949aa76b25ba1a3cf8, type: 2}
+  - {fileID: 1281677756442302, guid: 832fb5d42669e4b27b96a6ee484e0f72, type: 2}
+  delayTime: {x: 4, y: 8}
+  peopleSpeed: 10
+  sortingOrder: 5
+  layerName: Default
+--- !u!114 &114904025051043768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725128828376018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ff26f78e8704c4297256d4a32e47f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peoplePrefabs:
+  - {fileID: 1459347541409370, guid: 10234ae65c97f41ca99e040c7bfa88a7, type: 2}
+  - {fileID: 1743928338268700, guid: 48bdd90353c0c43538f31ac35942d105, type: 2}
+  - {fileID: 1107845271853550, guid: aa2141a5951354949aa76b25ba1a3cf8, type: 2}
+  - {fileID: 1281677756442302, guid: 832fb5d42669e4b27b96a6ee484e0f72, type: 2}
+  delayTime: {x: 4, y: 8}
+  peopleSpeed: 10
+  sortingOrder: -1
+  layerName: Buildings
+--- !u!114 &114967118483157750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1890070580979210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ff26f78e8704c4297256d4a32e47f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peoplePrefabs:
+  - {fileID: 1265867548273218, guid: 13ea1c5731b71f648a1591eda8003eeb, type: 2}
+  - {fileID: 1451037386497686, guid: c728cd5be155247428637d00655997b5, type: 2}
+  - {fileID: 1310750072523892, guid: 139a7bfb24f4744d0bd88c2a475a0428, type: 2}
+  - {fileID: 1751701833247260, guid: 83358a84c588a42f69f95aa9ade21e16, type: 2}
+  delayTime: {x: 4, y: 8}
+  peopleSpeed: 20
+  sortingOrder: 1
+  layerName: Platforms&Ground
